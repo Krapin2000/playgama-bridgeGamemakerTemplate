@@ -1,0 +1,1 @@
+playgama_bridge_advertisement_check_adblock()

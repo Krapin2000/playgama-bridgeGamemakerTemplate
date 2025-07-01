@@ -1,0 +1,57 @@
+{
+    "platforms": {
+        "game_distribution": {
+            "gameId": ""
+        },
+        "telegram": {
+            "adsgramBlockId": ""
+        },
+        "y8": {
+            "gameId": "",
+            "adsenseId": "",
+            "channelId": ""
+        },
+        "lagged": {
+            "devId": "",
+            "publisherId": ""
+        },
+        "msn": {
+            "gameId": ""
+        },
+        "discord" : {
+            "appId": ""
+        },
+        "gamepush": {
+            "projectId": "",
+            "publicToken": ""
+        }
+    },
+    "advertisement": {
+        "interstitial": {
+            "preloadOnStart": true
+        },
+        "rewarded": {
+            "preloadOnStart": true
+        },
+        "useBuiltInErrorPopup": true,
+        "backfillId": ""
+    },
+    "payments": [
+        {
+            "id": "test_product",
+            "playgama": {
+                "amount": 1 
+            },
+            "playdeck": {
+                "amount": 1, 
+                "description": "TEST PRODUCT"
+            }
+        }
+    ],
+    "leaderboards": [
+        {
+            "id": "test_leaderboard", 
+            "<ANY_PLATFORM_ID_HERE>": "<OVERRIDED_ID_FOR_PLATFORM_HERE>"
+        }
+    ]
+}
